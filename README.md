@@ -103,11 +103,38 @@ Commit the `Brewfile` to this repo to keep it in sync.
 
 ## Installed Packages
 
-> Update this section as you add packages.
+> Update this section as you add packages. Run `brew bundle dump --file=Brewfile --force` to keep the Brewfile in sync.
 
-| Package | Type | Purpose |
-|---------|------|---------|
-| _(none yet)_ | — | — |
+### Formulae (CLI tools)
+
+| Package | Install | Purpose |
+|---------|---------|---------|
+| `git` | `brew install git` | Version control |
+| `gh` | `brew install gh` | GitHub CLI — create repos, PRs, issues from terminal |
+| `node` | `brew install node` | Node.js runtime + npm |
+| `pnpm` | `brew install pnpm` | Fast Node package manager |
+| `python@3.12` | `brew install python@3.12` | Python runtime |
+| `postgresql@16` | `brew install postgresql@16` | PostgreSQL database |
+| `redis` | `brew install redis` | In-memory cache / message broker |
+| `docker` | `brew install docker` | Container CLI (pairs with Docker Desktop) |
+| `kubectl` | `brew install kubectl` | Kubernetes CLI |
+| `terraform` | `brew install terraform` | Infrastructure as code |
+| `awscli` | `brew install awscli` | AWS CLI |
+| `jq` | `brew install jq` | JSON processor for the terminal |
+| `wget` | `brew install wget` | File downloader |
+| `htop` | `brew install htop` | Interactive process viewer |
+| `tree` | `brew install tree` | Print directory trees |
+
+### Casks (GUI apps)
+
+| Package | Install | Purpose |
+|---------|---------|---------|
+| `visual-studio-code` | `brew install --cask visual-studio-code` | Code editor |
+| `docker` | `brew install --cask docker` | Docker Desktop (GUI + daemon) |
+| `tableplus` | `brew install --cask tableplus` | Database GUI (Postgres, MySQL, Redis) |
+| `postman` | `brew install --cask postman` | API testing |
+| `iterm2` | `brew install --cask iterm2` | Terminal emulator |
+| `google-chrome` | `brew install --cask google-chrome` | Browser |
 
 ---
 
