@@ -1,6 +1,6 @@
 # Dev Setup
 
-Personal Mac development environment setup — starting with Homebrew.
+Personal Mac development environment setup — starting with Homebrew (Documentation).
 
 ---
 
